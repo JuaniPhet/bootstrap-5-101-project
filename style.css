@@ -1,0 +1,15 @@
+svg:hover {
+    fill: #fff;
+}
+
+.bg-primary {
+    background-color: #754ffe !important;
+}
+
+.bg-success, .btn-outline-success:hover {
+    background-color: #15a97f !important;
+}
+
+.btn-outline-success {
+    border-color: #15a97f !important;
+}
