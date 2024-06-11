@@ -13,3 +13,7 @@ svg:hover {
 .btn-outline-success {
     border-color: #15a97f !important;
 }
+
+#disabled-btn:hover {
+    fill: #A96424;
+}

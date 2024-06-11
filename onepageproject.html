@@ -7,7 +7,9 @@
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
     <link rel="stylesheet" href="style.css">
   </head>
-  <body>
+  <body class="bg-light">
+
+    <!-- Nav Bar -->
     <nav class="navbar navbar-expand-lg bg-body-tertiary">
         <div class="container-fluid">
             <a class="navbar-brand" href="#">
@@ -150,18 +152,62 @@
             </div>
         </div>
     </nav>
+
     <!-- Page content -- Jumbotron -->
     <div class="bg-primary">
         <div class="container d-flex flex-column p-5">
-            <h1 class="d-flex text-white fw-bold text-start fs-1 w-50 pe-5 ">Welcome to Geeks UI Learning Application</h1>
-            <p class="text-body-tertiary fs-4 lh-base fw-normal" style="width: 40%;">Lorem ipsum dolor sit amet consectetur adipisicing elit. Quos aliquid nobis, excepturi quidem dicta at!</p>
-            <div class="d-flex" style="width: 30%;">
-                <button class="d-block p-3 rounded-3 border border-0 me-1 fw-semibold bg-success text-white" style="width: 48%;">Browse Courses</button>
-                <button class="d-block p-3 rounded-3 border border-0 fw-semibold bg-white text-secondary" style="width: 48%;"> Are You Instructor ?</button>
+            <h1 class="d-flex w-lg-50 text-white fw-bold text-lg-start fs-1 me-auto">Welcome to Geeks UI Learning Application</h1>
+            <p class="text-body-tertiary fs-4 lh-base fw-normal me-auto ">Lorem ipsum dolor sit amet consectetur adipisicing elit. Quos aliquid nobis, excepturi quidem dicta at!</p>
+            <div class="d-flex me-auto">
+                <button class="d-block p-3 rounded-2 border border-0 me-1 fw-semibold bg-success text-white">Browse Courses</button>
+                <button class="d-block p-3 rounded-2 border border-0 fw-semibold bg-white text-black"> Are You Instructor ?</button>
             </div>
         </div>
     </div>
 
+    <!-- Page content -- After Jumbotron -->
+    <div class="d-flex justify-content-center text-start bg-white shadow-sm pt-4 pb-1">
+        <div class="row container">
+            <div class="col-md-6 col-lg-4 d-flex">
+                <button class="rounded-circle bg-warning-subtle justify-content-center p-0 border-0 me-3" disabled style="width: 50px; height: 50px;">
+                    <svg xmlns="http://www.w3.org/2000/svg" id="disabled-btn" height="24px" viewBox="0 -960 960 960" width="24px" fill="#A96424">
+                        <path d="m344-60-76-128-144-32 14-148-98-112 98-112-14-148 144-32 76-128 136 58 136-58 76 128 144 32-14 148 98 112-98 112 14 148-144 32-76 128-136-58-136 58Zm34-102 102-44 104 44 56-96 110-26-10-112 74-84-74-86 10-112-110-24-58-96-102 44-104-44-56 96-110 24 10 112-74 86 74 84-10 114 110 24 58 96Zm102-318Zm-42 142 226-226-56-58-170 170-86-84-56 56 142 142Z"/>
+                    </svg>
+                </button>
+                <div class="d-block">
+                    <h1 class="fs-6 fw-bold">Lorem, ipsum dolor.</h1>
+                    <p>Lorem ipsum dolor sit test.</p>
+                </div>
+            </div>
+            <div class="col-md-6 col-lg-4 d-flex">
+                <button class="rounded-circle bg-warning-subtle justify-content-center p-0 border-0 me-3" disabled style="width: 50px; height: 50px;">
+                    <svg xmlns="http://www.w3.org/2000/svg" id="disabled-btn" height="24px" viewBox="0 -960 960 960" width="24px" fill="#A96424">
+                        <path d="m344-60-76-128-144-32 14-148-98-112 98-112-14-148 144-32 76-128 136 58 136-58 76 128 144 32-14 148 98 112-98 112 14 148-144 32-76 128-136-58-136 58Zm34-102 102-44 104 44 56-96 110-26-10-112 74-84-74-86 10-112-110-24-58-96-102 44-104-44-56 96-110 24 10 112-74 86 74 84-10 114 110 24 58 96Zm102-318Zm-42 142 226-226-56-58-170 170-86-84-56 56 142 142Z"/>
+                    </svg>
+                </button>
+                <div class="d-block">
+                    <h1 class="fs-6 fw-bold">Lorem, ipsum dolor.</h1>
+                    <p>Lorem ipsum dolor sit test.</p>
+                </div>
+            </div>
+            <div class="col-md-6 col-lg-4 d-flex">
+                <button class="rounded-circle bg-warning-subtle justify-content-center p-0 border-0 me-3" disabled style="width: 50px; height: 50px;">
+                    <svg xmlns="http://www.w3.org/2000/svg" id="disabled-btn" height="24px" viewBox="0 -960 960 960" width="24px" fill="#A96424">
+                        <path d="m344-60-76-128-144-32 14-148-98-112 98-112-14-148 144-32 76-128 136 58 136-58 76 128 144 32-14 148 98 112-98 112 14 148-144 32-76 128-136-58-136 58Zm34-102 102-44 104 44 56-96 110-26-10-112 74-84-74-86 10-112-110-24-58-96-102 44-104-44-56 96-110 24 10 112-74 86 74 84-10 114 110 24 58 96Zm102-318Zm-42 142 226-226-56-58-170 170-86-84-56 56 142 142Z"/>
+                    </svg>
+                </button>
+                <div class="d-block">
+                    <h1 class="fs-6 fw-bold">Lorem, ipsum dolor.</h1>
+                    <p>Lorem ipsum dolor sit test.</p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Content -->
+    <div class="container">
+        
+    </div>
 
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
   </body>
