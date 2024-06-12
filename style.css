@@ -17,3 +17,7 @@ svg:hover {
 #disabled-btn:hover {
     fill: #A96424;
 }
+
+#bookmark-btn:hover {
+    fill: #434343;
+}
