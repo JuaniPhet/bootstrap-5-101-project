@@ -3,7 +3,7 @@ svg:hover {
 }
 
 .bg-primary {
-    background-color: #754ffe !important;
+    background-color: #295dfa !important;
 }
 
 .bg-success, .btn-outline-success:hover {
@@ -20,4 +20,28 @@ svg:hover {
 
 #bookmark-btn:hover {
     fill: #434343;
+}
+
+#bookmark-btn:active {
+    fill: #15a97f;
+}
+
+.card:hover, .btn-view:hover {
+    box-shadow: rgba(0, 0, 0, 0.1) 0px 10px 15px -3px, rgba(0, 0, 0, 0.05) 0px 4px 6px -2px;
+}
+
+.checked {
+    color: orange;
+}
+
+.unchecked {
+    color: #999999;
+}
+
+.link-footer:hover {
+    color: #434343;
+}
+
+.link-secondary {
+    color: #999999 !important;
 }
